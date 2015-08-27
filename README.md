@@ -8,7 +8,7 @@ bootstrap3 bundle for phpixie3
 ### Установка
 1) Подключаем бандл в проект
 ```sh
-composer require koka/phpixie-bootstrap3-bundle:3.*-dev
+composer require koka/phpixie-bootstrap3-bundle:dev-master
 ```
 2) Создать ссылку на web директорию бандла
 ```sh
@@ -22,7 +22,7 @@ ln -s ../../vendor/koka/phpixie-bootstrap3-bundle/web bootstrap3Bundle
     {
         return array(
             new \Project\App($this->builder),
-            new \Bootstrap3Bundle\App($this->builder)
+            new \Koka\Bootstrap3Bundle\App($this->builder)
         );
     }
 ```
@@ -32,7 +32,7 @@ ln -s ../../vendor/koka/phpixie-bootstrap3-bundle/web bootstrap3Bundle
 ```
 <?php  include $this->resolve('bootstrap3Bundle:default');?>
 ```
-И выводим в нужном месте блоки bootstrap-css и bootstrap-js.
+И выводим в нужном месте блоки bootstrap-css и bootstrap-js и jquery-js.
 Пример стандартного шаблона.
 ```
 <?php  include $this->resolve('bootstrap3Bundle:default');?>
@@ -41,6 +41,7 @@ ln -s ../../vendor/koka/phpixie-bootstrap3-bundle/web bootstrap3Bundle
 	<head>
 		<title>PHPixie 3.0</title>
 		<?php $this->block('bootstrap-css');?>
+		<?php $this->block('jquery-js');?>
 	</head>
 	<body>
         <h1>PHPixie 3.0</h1>

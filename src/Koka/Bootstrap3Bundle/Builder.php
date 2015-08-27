@@ -1,11 +1,11 @@
 <?php
 
-namespace Bootstrap3Bundle;
+namespace Koka\Bootstrap3Bundle;
 
 class Builder extends \PHPixie\DefaultBundle\Builder
 {
     protected function getRootDirectory()
     {
-        return realpath(__DIR__.'/../../');
+        return realpath(__DIR__.'/../../../');
     }
 }

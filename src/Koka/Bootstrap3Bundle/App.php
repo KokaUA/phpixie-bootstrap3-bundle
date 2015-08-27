@@ -1,6 +1,6 @@
 <?php
 
-namespace Bootstrap3Bundle;
+namespace Koka\Bootstrap3Bundle;
 
 class App extends \PHPixie\DefaultBundle
 {

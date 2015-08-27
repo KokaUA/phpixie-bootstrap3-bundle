@@ -1,7 +1,14 @@
 {
     "name": "koka/phpixie-bootstrap3-bundle",
     "description" : "bootstrap3 bundle for PHPixie",
-    "license" : "BSD",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kostya Nemchenko",
+            "email": "kostya.nemchenko@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "": [
@@ -10,29 +17,18 @@
         }
     },
     "require": {
+	"php": ">=5.3.3",
         "phpixie/default-bundle": "3.*@dev",
         "phpixie/bundle-framework": "3.*@dev",
         "phpixie/bundles": "3.*@dev",
         "phpixie/framework": "3.*@dev",
-        "phpixie/debug": "3.*@dev",
-        "phpixie/route": "3.*@dev",
         "phpixie/template": "3.*@dev",
-        "phpixie/filesystem": "3.*@dev",
-        "phpixie/database": "3.*@dev",
+        "phpixie/filesystem": "3.*@dev",        
         "phpixie/config": "3.*@dev",
-        "phpixie/orm": "3.*@dev",
         "phpixie/slice": "3.*@dev",
         "phpixie/processors": "3.*@dev",
         "phpixie/http": "3.*@dev",
         "psr/http-message": "1.*@dev",
         "phpixie/http-processors": "3.*@dev"
-    },
-    "require-dev": {
-        "phpixie/test": "3.*@dev"
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.*-dev"
-        }
     }
 }
