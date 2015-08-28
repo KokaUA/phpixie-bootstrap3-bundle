@@ -3,6 +3,11 @@
     "description" : "bootstrap3 bundle for PHPixie",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+            "phpixie",
+            "bootstrap",
+            "bundle"
+    ],
     "authors": [
         {
             "name": "Kostya Nemchenko",
@@ -16,6 +21,7 @@
             ]
         }
     },
+    "minimum-stability": "dev",
     "require": {
 	"php": ">=5.3.3",
         "phpixie/default-bundle": "3.*@dev",
