@@ -21,20 +21,9 @@
             ]
         }
     },
-    "minimum-stability": "dev",
     "require": {
 	"php": ">=5.3.3",
-        "phpixie/default-bundle": "3.*@dev",
-        "phpixie/bundle-framework": "3.*@dev",
-        "phpixie/bundles": "3.*@dev",
-        "phpixie/framework": "3.*@dev",
-        "phpixie/template": "3.*@dev",
-        "phpixie/filesystem": "3.*@dev",        
-        "phpixie/config": "3.*@dev",
-        "phpixie/slice": "3.*@dev",
-        "phpixie/processors": "3.*@dev",
-        "phpixie/http": "3.*@dev",
-        "psr/http-message": "1.*@dev",
-        "phpixie/http-processors": "3.*@dev"
+        "phpixie/default-bundle": "~3.0",
+        "phpixie/bundle-framework": "~3.0"
     }
 }
