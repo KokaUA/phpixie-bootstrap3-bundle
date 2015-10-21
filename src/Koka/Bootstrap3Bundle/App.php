@@ -8,9 +8,4 @@ class App extends \PHPixie\DefaultBundle
     {
         return new Builder($frameworkBuilder);
     }
-    
-    public function name()
-    {
-        return 'bootstrap3Bundle';
-    }
 }
