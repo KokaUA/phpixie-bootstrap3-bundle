@@ -23,7 +23,7 @@
     },
     "require": {
 	"php": ">=5.3.3",
-        "phpixie/default-bundle": "~3.0",
-        "phpixie/bundle-framework": "~3.0"
+        "phpixie/default-bundle": "~3.1",
+        "phpixie/bundle-framework": "~3.1"
     }
 }
